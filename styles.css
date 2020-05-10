@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
+
+  }
+  
+  html {
+	background: linear-gradient(90deg, rgba(89,96,234,1) 0%, rgba(0,87,182,1) 100%);
+	height: 100%;
+	margin: 0;
+  }
+
+  body {
+	margin: 0 auto 10%;
+	font-family: Cera, Arial, Helvetica, sans-serif;
+	text-align: center;
+  }
+  
+  #logo {
+	position: fixed;
+	left: 30px;
+	top: 30px;
+	height: 10vh;
+	fill: white;
+  }
+
+  p{
+	  margin: 5px;
+  }
+  a{
+	  color: black;
+  }
+  .quiz-box {
+	  position: relative;
+	  top: 15vh;
+	  width: 60%;
+	  background: rgb(237,238,242);
+	  background: linear-gradient(135deg, rgba(237,238,242,1) 0%, rgba(250,250,250,1) 100%);
+
+	  margin: auto auto 100px;
+	  display: none;
+	  box-shadow: 0 0 10px rgb(130, 130, 130);
+	  height: auto;
+  }
+  h1 {
+	  color: black;
+	  text-align: left;
+		margin: 0 8% 0 ;
+		
+  }
+  h2 {
+	color: grey;
+	text-align: left;
+	  margin: 20px 30px 5px;
+}
+  .quiz-img {
+	  width: 80%;
+	  margin: 5% auto 2%;
+	  border: 1px solid black;
+ }
+
+ .ans-box {
+	 border: 1px solid white;
+	 width: 80%;
+	 margin: 0 auto;
+	 font-family: Cera, Arial, Helvetica, sans-serif;
+ }
+
+ .ans-button {
+	 height: auto;
+	 margin: 0 auto;
+	 background-color: rgb(0, 87, 182);
+	 text-align: left;
+	 padding: 15px 10px;
+	 color: white;
+ }
+ .bottom-border {
+	 border-bottom: 1px solid white;
+ }
+
+ .next-button{
+	 width: 120px;
+	 height: auto;
+	 padding: 10px 30px;
+	 margin: 30px 0 40px auto;
+	 background-color: #7C8793;
+	 text-align: right;
+	 right: 0;
+	 color: white;
+	 font-size: small;
+ }
+
+
+ form {
+	position: absolute;
+	margin: 50px auto;
+	transform: translate(-50%, -50%);
+	top: 60%;
+	left: 50%;
+	width: 90%;
+	height: 70px;
+  }
+
+  input {
+	position: absolute;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	height: 75%;
+  }
+
+  #email-text{
+	left: 40%;
+	width: 70%;
+	border: 2px solid rgb(0, 40, 130);
+	border-radius: 6px;
+	padding: 10px;
+  }
+
+  #email-button{
+	  left: 86%;
+	  width: 18%;
+	  border: 2px solid rgb(0, 87, 182);
+	  background-color: rgb(0, 87, 182);
+	  background-image: url("images/send-button.png");
+	  background-position: center;
+	  background-size: contain;
+
+	  background-repeat: no-repeat;
+	  border-radius: 6px;
+
+  }
