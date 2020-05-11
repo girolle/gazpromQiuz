@@ -1,3 +1,3 @@
-Квиз для ВТБ<p></p>
-Попробовать: https://girolle.github.io/kindaQuiz/<p></p>
+Опрос для газпромбанка<p></p>
+Попробовать: https://girolle.github.io/gazpromQuiz/<p></p>
 (картинки и конечные экраны еще не согласованы)
