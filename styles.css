@@ -57,7 +57,7 @@
 	  margin: 20px 30px 5px;
 }
   .quiz-img {
-	  width: 80%;
+	  width: 60%;
 	  margin: 5% auto 2%;
 	  border: 1px solid black;
  }
@@ -94,19 +94,19 @@
  }
 
 
- form {
+  form {
 	position: absolute;
 	margin: 50px auto;
 	transform: translate(-50%, -50%);
-	top: 60%;
+	top: 30%;
 	left: 50%;
-	width: 90%;
-	height: 70px;
+	width: 300px;
+	height: 60px;
   }
 
   input {
 	position: absolute;
-	margin: 0 auto;
+	margin: 10vh auto;
 	transform: translate(-50%, -50%);
 	top: 50%;
 	height: 75%;
@@ -115,21 +115,22 @@
   #email-text{
 	left: 40%;
 	width: 70%;
-	border: 2px solid rgb(0, 40, 130);
+	border: 2px solid rgb(0, 87, 182);
 	border-radius: 6px;
 	padding: 10px;
   }
 
+
   #email-button{
-	  left: 86%;
-	  width: 18%;
-	  border: 2px solid rgb(0, 87, 182);
-	  background-color: rgb(0, 87, 182);
-	  background-image: url("images/send-button.png");
-	  background-position: center;
-	  background-size: contain;
+	left: 86%;
+	width: 18%;
+	border: 2px solid rgb(0, 87, 182);
+	background-color: rgb(0, 87, 182);
+	background-image: url("images/send-button.png");
+	background-position: center;
+	background-size: contain;
 
-	  background-repeat: no-repeat;
-	  border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
 
-  }
+}
