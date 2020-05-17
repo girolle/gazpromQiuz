@@ -17,7 +17,7 @@ function quizBoxInit(id){
 	if (id) {$('#question_0')[0].style.marginTop = "50px";}
 	
 	$('#question_'+ id)[0].style.fontSize = h1Size;
-	$('#question_'+ id)[0].innerText = texts[id][0];
+	$('#question_'+ id)[0].innerHTML = texts[id][0];
 	box.append($('<img>',{id:('img_' + id),src:('images/img_' + id + '.png'), class:"quiz-img"}));
 
 	if (id){
@@ -25,7 +25,7 @@ function quizBoxInit(id){
 
 	for (let j = 1; j<=3; j+=1) {
 		$("#ans-box_" + id).append($('<div>', {id:('ans_' + id + "_" + j), class: "ans-button bottom-border"}));
-		$('#ans_' + id + "_" + j)[0].innerText = texts[id][j];
+		$('#ans_' + id + "_" + j)[0].innerHTML= texts[id][j];
 		mouseOnElement($("#ans_" + id + "_"+j));
 	}
 	$('#ans_' + id + "_" + 3)[0].className =  "ans-button";
@@ -37,7 +37,7 @@ function quizBoxInit(id){
 	mouseOnElement($("#next_"+id));
 }
 
-texts = [["Получить промокод очень просто: ответь на два простых вопроса и оставь свой email!"], [
+texts = [["У нас есть приятная традиция — дарить сувениры посетителям стенда Газпромбанка. <br> На этот раз, совместно с нашим партнером - онлайн-кинотеатром ivi, мы подготовили для вас промокоды. <h5>Получить промокод очень просто: ответь на два простых вопроса и оставь свою электронную почту! <br> А еще скачай стикерпак с роботом Газпромбанка по ссылке: <a href='https://t.me/addstickers/HelloGPB'>https://t.me/addstickers/HelloGPB<a><h5>"], [
 	"Здравствуй, дорогой друг! Что привело тебя в долину стартапов?", 
 	"Ищу возможности для развития своего проекта", "Хочу создать свою технологическую команду или присоединиться к существующей", "Скучаю на карантине и хочу узнать, какие решения люди находят в корпорациях"
 ], 
@@ -90,7 +90,7 @@ function exit(){
 	$("#finish")[0].style.paddingBottom = "50px";
 	$('#finish-text')[0].style.marginTop = "50px";
 	$('#finish-text')[0].style.fontSize = h1Size;
-	$('#finish-text')[0].innerText = "Спасибо за ваши ответы! Чтобы получить промокод, оставьте свой адрес электронной почты";
+	$('#finish-text')[0].innerHTML = "Спасибо за ваши ответы! Оставь свой e-mail и мы пришлем тебе твой промокод.";
 	box[0].style.height = "60vh";
 //	box.append($('<img>',{id:('img_final'),src:('images/finished.png'), class:"quiz-img"}));
 /*	box.append($('<div>', {id: ('text-box'), class:"ans-box"}));

@@ -132,5 +132,9 @@
 
 	background-repeat: no-repeat;
 	border-radius: 6px;
+}
 
+h5 {
+	margin:1rem 0;
+	color: rgb(50, 50, 50);
 }
